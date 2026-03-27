@@ -1,0 +1,7 @@
+body {
+    font-family: "LXGW WenKai", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.post-content code {
+    font-family: "JetBrains Mono", "LXGW WenKai", "PingFang SC", "Microsoft YaHei", monospace;
+}

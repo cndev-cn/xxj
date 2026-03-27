@@ -1,0 +1,57 @@
+@media (min-width: 1400px) {
+    .page {
+        --toc-width: 220px;
+    }
+    
+    .toc {
+        position: fixed;
+        top: 100px;
+        right: 40px;
+        width: var(--toc-width);
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
+        z-index: 100;
+    }
+    
+    .toc details {
+        background: var(--entry);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px;
+    }
+    
+    .toc .inner {
+        max-height: calc(100vh - 200px);
+        overflow-y: auto;
+    }
+    
+    .toc summary {
+        cursor: pointer;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    
+    .toc ul {
+        margin: 0;
+        padding-left: 12px;
+    }
+    
+    .toc li {
+        margin: 4px 0;
+    }
+    
+    .toc li a {
+        font-size: 13px;
+        color: var(--secondary);
+    }
+    
+    .toc li a:hover {
+        color: var(--primary);
+    }
+}
+
+@media (max-width: 1399px) {
+    .toc {
+        margin: 1rem 0;
+    }
+}
