@@ -45,7 +45,7 @@ hasCJKLanguage = true
 
 [params]
   defaultTheme = "auto"
-  description = "About web-development and PHP."
+  description = ""
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -72,4 +72,3 @@ hasCJKLanguage = true
 [[params.socialIcons]]
   name = "email"
   url = "mailto:x_xuejie@buaa.edu.cn"
-
