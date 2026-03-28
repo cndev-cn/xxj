@@ -63,8 +63,13 @@ hasCJKLanguage = true
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/JsnowyXu"
 
 [[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/"
+  name = "orcid"
+  url = "https://orcid.org/0000-0003-4890-2110"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:x_xuejie@buaa.edu.cn"
+
